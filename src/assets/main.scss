@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-display {
+    font-family: "Boska", serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Clash Display", sans-serif;
+    overflow-x: hidden;
+    // remove scroll bar
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    // remove scroll bar
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
